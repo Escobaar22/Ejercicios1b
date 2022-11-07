@@ -29,7 +29,6 @@ public class EjercicioEvaluable {
             System.out.println();
         }
         System.out.println();
-        System.out.println("El resultado de la suma es:");
     }
     public static void SumaMatrizes(int[][] lista, int[][] lista2){
         int[][] resultado = new int[lista.length][lista[0].length];
