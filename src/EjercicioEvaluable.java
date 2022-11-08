@@ -15,7 +15,7 @@ public class EjercicioEvaluable {
                     lista[i][j] = (int) (Math.random() * 10);
                     System.out.print(lista[i][j] + "\t");
                 }
-                System.out.println();
+                System.out.println(); //Lo he utilizado para que tenga la forma de matriz
             }
             System.out.println();
     }
@@ -26,7 +26,7 @@ public class EjercicioEvaluable {
                 lista[i][j] = (int) (Math.random() * 10);
                 System.out.print(lista[i][j] + "\t");
             }
-            System.out.println();
+            System.out.println(); //Lo he utilizado para que tenga la forma de matriz
         }
         System.out.println();
         System.out.println("El resultado de la suma es:");
