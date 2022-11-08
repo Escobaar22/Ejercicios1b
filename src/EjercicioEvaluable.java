@@ -32,9 +32,9 @@ public class EjercicioEvaluable {
         System.out.println("El resultado de la suma es:");
     }
     public static void SumaMatrizes(int[][] lista, int[][] lista2){
-        int[][] resultado = new int[lista.length][lista[0].length];
+        int[][] resultado = new int[lista.length][lista2.length];
         for (int i = 0; i < lista.length; i++){
-            for (int j = 0; j <lista[i].length; j++){
+            for (int j = 0; j <lista2.length; j++){
                 resultado[i][j] = lista[i][j]+lista2[i][j];
                 System.out.print(resultado[i][j]+"\t");
             }
